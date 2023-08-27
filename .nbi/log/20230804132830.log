@@ -1,0 +1,587 @@
+[2023-08-04 13:28:30.280]: entering -- org.netbeans.installer.Installer.main():61
+[2023-08-04 13:28:30.283]: initializing the installer engine
+[2023-08-04 13:28:30.283]:     entering -- org.netbeans.installer.Installer.<init>():96
+[2023-08-04 13:28:30.283]:     ... initializing ErrorHandler
+[2023-08-04 13:28:30.285]:     ... end of ErrorHandler initialization
+[2023-08-04 13:28:30.286]:     exiting -- org.netbeans.installer.Installer.<init>():96
+[2023-08-04 13:28:30.286]:     entering -- org.netbeans.installer.Installer.<init>():97
+[2023-08-04 13:28:30.286]:     dumping target system information
+[2023-08-04 13:28:30.286]:         system properties:
+[2023-08-04 13:28:30.287]:             file.encoding => UTF-8
+[2023-08-04 13:28:30.287]:             file.separator => \
+[2023-08-04 13:28:30.287]:             java.class.path => C:\Users\ASHUMI~1\AppData\Local\Temp\\NBI07871.tmp\bundle.jar
+[2023-08-04 13:28:30.287]:             java.class.version => 64.0
+[2023-08-04 13:28:30.287]:             java.home => C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:30.287]:             java.io.tmpdir => C:\Users\ASHUMI~1\AppData\Local\Temp\
+[2023-08-04 13:28:30.287]:             java.library.path => C:\Program Files\Java\jdk-20\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;c;C:\MinGW\bin;C:\Program Files\Java\jdk-17.0.4\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Git\cmd;C:\Users\Ashu mishra\AppData\Local\Microsoft\WindowsApps;C:\Users\Ashu mishra\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ashu mishra\Downloads\mingw-w64-v10.0.0.zip\mingw-w64-v10.0.0;C:\Users\Ashu mishra\AppData\Roaming\npm;.
+[2023-08-04 13:28:30.287]:             java.runtime.name => Java(TM) SE Runtime Environment
+[2023-08-04 13:28:30.287]:             java.runtime.version => 20.0.2+9-78
+[2023-08-04 13:28:30.287]:             java.specification.name => Java Platform API Specification
+[2023-08-04 13:28:30.287]:             java.specification.vendor => Oracle Corporation
+[2023-08-04 13:28:30.288]:             java.specification.version => 20
+[2023-08-04 13:28:30.288]:             java.vendor => Oracle Corporation
+[2023-08-04 13:28:30.288]:             java.vendor.url => https://java.oracle.com/
+[2023-08-04 13:28:30.288]:             java.vendor.url.bug => https://bugreport.java.com/bugreport/
+[2023-08-04 13:28:30.288]:             java.version => 20.0.2
+[2023-08-04 13:28:30.288]:             java.version.date => 2023-07-18
+[2023-08-04 13:28:30.288]:             java.vm.compressedOopsMode => 32-bit
+[2023-08-04 13:28:30.288]:             java.vm.info => mixed mode, sharing
+[2023-08-04 13:28:30.288]:             java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+[2023-08-04 13:28:30.288]:             java.vm.specification.name => Java Virtual Machine Specification
+[2023-08-04 13:28:30.288]:             java.vm.specification.vendor => Oracle Corporation
+[2023-08-04 13:28:30.288]:             java.vm.specification.version => 20
+[2023-08-04 13:28:30.289]:             java.vm.vendor => Oracle Corporation
+[2023-08-04 13:28:30.289]:             java.vm.version => 20.0.2+9-78
+[2023-08-04 13:28:30.289]:             jdk.debug => release
+[2023-08-04 13:28:30.289]:             line.separator => 
+[2023-08-04 13:28:30.289]:             native.encoding => Cp1252
+[2023-08-04 13:28:30.289]:             netbeans.default_cachedir_root => C:\Users\Ashu mishra\AppData\Local\NetBeans\Cache
+[2023-08-04 13:28:30.289]:             netbeans.default_userdir_root => C:\Users\Ashu mishra\AppData\Roaming\NetBeans
+[2023-08-04 13:28:30.289]:             os.arch => amd64
+[2023-08-04 13:28:30.289]:             os.name => Windows 11
+[2023-08-04 13:28:30.289]:             os.version => 10.0
+[2023-08-04 13:28:30.289]:             path.separator => ;
+[2023-08-04 13:28:30.289]:             stderr.encoding => Cp1252
+[2023-08-04 13:28:30.290]:             stdout.encoding => Cp1252
+[2023-08-04 13:28:30.290]:             sun.arch.data.model => 64
+[2023-08-04 13:28:30.290]:             sun.boot.library.path => C:\Program Files\Java\jdk-20\bin
+[2023-08-04 13:28:30.290]:             sun.cpu.endian => little
+[2023-08-04 13:28:30.290]:             sun.cpu.isalist => amd64
+[2023-08-04 13:28:30.290]:             sun.io.unicode.encoding => UnicodeLittle
+[2023-08-04 13:28:30.290]:             sun.java.command => org.netbeans.installer.Installer
+[2023-08-04 13:28:30.290]:             sun.java.launcher => SUN_STANDARD
+[2023-08-04 13:28:30.290]:             sun.jnu.encoding => Cp1252
+[2023-08-04 13:28:30.290]:             sun.management.compiler => HotSpot 64-Bit Tiered Compilers
+[2023-08-04 13:28:30.290]:             sun.os.patch.level => 
+[2023-08-04 13:28:30.290]:             user.country => IN
+[2023-08-04 13:28:30.291]:             user.dir => C:\Users\Ashu mishra\Downloads
+[2023-08-04 13:28:30.291]:             user.home => C:\Users\Ashu mishra
+[2023-08-04 13:28:30.291]:             user.language => en
+[2023-08-04 13:28:30.291]:             user.name => Ashu mishra
+[2023-08-04 13:28:30.291]:             user.script => 
+[2023-08-04 13:28:30.291]:             user.timezone => Asia/Calcutta
+[2023-08-04 13:28:30.291]:             user.variant => 
+[2023-08-04 13:28:30.291]:     ... end of target system information
+[2023-08-04 13:28:30.291]:     exiting -- org.netbeans.installer.Installer.<init>():97
+[2023-08-04 13:28:30.349]:     loading jni library
+[2023-08-04 13:28:30.350]:         library resource path: native/jnilib/windows/windows-x64.dll
+[2023-08-04 13:28:30.533]:         library file path: C:\Users\ASHUMI~1\AppData\Local\Temp\nbi-8524346888095533792.tmp
+[2023-08-04 13:28:30.548]:         ... successfully loaded the library
+[2023-08-04 13:28:30.554]:     entering -- org.netbeans.installer.Installer.<init>():102
+[2023-08-04 13:28:30.555]:     parsing command-line arguments
+[2023-08-04 13:28:30.558]:         ... no command line arguments were specified
+[2023-08-04 13:28:30.558]:     ... finished parsing command line arguments
+[2023-08-04 13:28:30.558]:     exiting -- org.netbeans.installer.Installer.<init>():102
+[2023-08-04 13:28:30.558]:     entering -- org.netbeans.installer.Installer.<init>():103
+[2023-08-04 13:28:30.558]:     loading engine properties
+[2023-08-04 13:28:30.558]:         loading engine properties
+[2023-08-04 13:28:30.562]:             loading nbi.wizard.ui.swing.frame.width.default => 600
+[2023-08-04 13:28:30.562]:             loading nbi.wizard.ui.swing.frame.width.gtk => 704
+[2023-08-04 13:28:30.562]:             loading nbi.wizard.ui.swing.frame.head.right.image => resource:org/netbeans/installer/wizard/wizard-description-background.png
+[2023-08-04 13:28:30.562]:             loading nbi.wizard.ui.swing.frame.minimum.width.nimbus => 624
+[2023-08-04 13:28:30.562]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.xp => 450
+[2023-08-04 13:28:30.562]:             loading nbi.wizard.ui.swing.frame.minimum.height.nimbus => 512
+[2023-08-04 13:28:30.563]:             loading nbi.wizard.ui.swing.frame.title.prefix => Apache NetBeans IDE Installer
+[2023-08-04 13:28:30.563]:             loading nbi.wizard.ui.swing.frame.width.nimbus => 624
+[2023-08-04 13:28:30.563]:             loading nbi.wizard.ui.swing.frame.width.win.xp => 600
+[2023-08-04 13:28:30.563]:             loading nbi.overall.license.jdk5.resource => org/netbeans/installer/product/components/netbeans-license-jdk5.txt
+[2023-08-04 13:28:30.563]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.classic => 442
+[2023-08-04 13:28:30.563]:             loading nbi.overall.license.jtb.resource => org/netbeans/installer/product/components/netbeans-license-jtb.txt
+[2023-08-04 13:28:30.563]:             loading nbi.wizard.ui.swing.frame.height.motif => 470
+[2023-08-04 13:28:30.563]:             loading nbi.wizard.ui.swing.frame.minimum.width.default => 600
+[2023-08-04 13:28:30.563]:             loading nbi.wizard.ui.swing.frame.height.aqua => 480
+[2023-08-04 13:28:30.564]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.xp => 600
+[2023-08-04 13:28:30.564]:             loading nbi.overall.license.jdk6.resource => org/netbeans/installer/product/components/netbeans-license-jdk6.txt
+[2023-08-04 13:28:30.564]:             loading nbi.wizard.ui.swing.frame.minimum.height.aqua => 480
+[2023-08-04 13:28:30.564]:             loading nbi.wizard.ui.swing.frame.minimum.height.default => 500
+[2023-08-04 13:28:30.564]:             loading nbi.overall.license.mysql.resource => org/netbeans/installer/product/components/netbeans-license-mysql.txt
+[2023-08-04 13:28:30.564]:             loading nbi.product.suggest.install => true
+[2023-08-04 13:28:30.564]:             loading nbi.wizard.ui.swing.frame.icon => resource:org/netbeans/installer/wizard/wizard-icon.png
+[2023-08-04 13:28:30.564]:             loading nbi.wizard.ui.swing.frame.width.aqua => 640
+[2023-08-04 13:28:30.564]:             loading nbi.wizard.ui.swing.frame.minimum.height.motif => 470
+[2023-08-04 13:28:30.564]:             loading nbi.wizard.ui.swing.frame.minimum.height.gtk => 528
+[2023-08-04 13:28:30.564]:             loading nbi.product.remove.corrupted.products.silently => true
+[2023-08-04 13:28:30.565]:             loading nbi.wizard.ui.swing.frame.width.motif => 624
+[2023-08-04 13:28:30.565]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.classic => 588
+[2023-08-04 13:28:30.565]:             loading nbi.wizard.ui.swing.welcome.left.bottom.image => resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2023-08-04 13:28:30.565]:             loading nbi.macosx.application.directory.name => NetBeans IDE Installer
+[2023-08-04 13:28:30.565]:             loading nbi.overall.license.resource => org/netbeans/installer/product/components/netbeans-license.txt
+[2023-08-04 13:28:30.565]:             loading nbi.wizard.ui.swing.frame.height.gtk => 528
+[2023-08-04 13:28:30.565]:             loading nbi.wizard.ui.swing.frame.minimum.width.metal => 624
+[2023-08-04 13:28:30.566]:             loading nbi.wizard.ui.swing.frame.minimum.width.motif => 624
+[2023-08-04 13:28:30.566]:             loading nbi.wizard.ui.swing.frame.height.metal => 470
+[2023-08-04 13:28:30.566]:             loading nbi.wizard.ui.swing.frame.minimum.width.gtk => 704
+[2023-08-04 13:28:30.566]:             loading nbi.junit.license.resource => org/netbeans/installer/product/components/junit-license.txt
+[2023-08-04 13:28:30.566]:             loading nbi.wizard.ui.swing.frame.width.metal => 624
+[2023-08-04 13:28:30.566]:             loading nbi.wizard.ui.swing.frame.height.default => 500
+[2023-08-04 13:28:30.566]:             loading nbi.wizard.ui.swing.frame.height.win.classic => 442
+[2023-08-04 13:28:30.566]:             loading nbi.wizard.ui.swing.frame.height.win.xp => 450
+[2023-08-04 13:28:30.567]:             loading nbi.wizard.ui.swing.frame.height.nimbus => 512
+[2023-08-04 13:28:30.567]:             loading nbi.overall.license.javafx.resource => org/netbeans/installer/product/components/netbeans-license-javafx.txt
+[2023-08-04 13:28:30.567]:             loading nbi.wizard.ui.swing.frame.title.pattern => {0}
+[2023-08-04 13:28:30.567]:             loading nbi.wizard.ui.swing.frame.width.win.classic => 588
+[2023-08-04 13:28:30.567]:             loading nbi.wizard.ui.swing.frame.minimum.height.metal => 470
+[2023-08-04 13:28:30.567]:             loading nbi.wizard.ui.swing.frame.minimum.width.aqua => 640
+[2023-08-04 13:28:30.567]:     ... finished loading engine properties
+[2023-08-04 13:28:30.567]:     exiting -- org.netbeans.installer.Installer.<init>():103
+[2023-08-04 13:28:30.567]:     initializing the local directory
+[2023-08-04 13:28:30.567]:         ... custom local directory was not specified, using the default
+[2023-08-04 13:28:30.567]:         ... local directory: C:\Users\Ashu mishra\.nbi
+[2023-08-04 13:28:30.570]:     ... finished initializing local directory
+[2023-08-04 13:28:30.619]:     entering -- org.netbeans.installer.Installer.<init>():109
+[2023-08-04 13:28:30.619]:     ... initializing DownloadManager
+[2023-08-04 13:28:30.628]:         file not exist, queue is empty!
+[2023-08-04 13:28:30.639]:     ... end of initializing DownloadManager
+[2023-08-04 13:28:30.639]:     exiting -- org.netbeans.installer.Installer.<init>():109
+[2023-08-04 13:28:30.639]:     entering -- org.netbeans.installer.Installer.<init>():110
+[2023-08-04 13:28:30.639]:     ... initializing Registry
+[2023-08-04 13:28:30.655]:     ... end of initializing ErrorHandler
+[2023-08-04 13:28:30.655]:     exiting -- org.netbeans.installer.Installer.<init>():110
+[2023-08-04 13:28:30.655]:     entering -- org.netbeans.installer.Installer.<init>():111
+[2023-08-04 13:28:30.655]:     ... initializing Wizard
+[2023-08-04 13:28:30.953]:         ... loading registry from resource:data/registry.xml
+[2023-08-04 13:28:31.030]:         entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:31.030]:         validating previous installations
+[2023-08-04 13:28:31.031]:         ... validating installations finished
+[2023-08-04 13:28:31.031]:         exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:31.036]:         Can`t load message in bundle org.netbeans.installer.wizard.components.panels.netbeans.Bundle for key NPrISP.installation.folders using [jdk.internal.loader.ClassLoaders$AppClassLoader@70dea4e] classloader
+[2023-08-04 13:28:31.042]:     ... end of initializing Wizard
+[2023-08-04 13:28:31.042]:     exiting -- org.netbeans.installer.Installer.<init>():111
+[2023-08-04 13:28:31.042]:     creating lock file
+[2023-08-04 13:28:31.043]:         ... created lock file: C:\Users\Ashu mishra\.nbi\.nbilock
+[2023-08-04 13:28:31.043]:     finished creating lock file
+[2023-08-04 13:28:31.044]: ... finished initializing the engine
+[2023-08-04 13:28:31.044]: exiting -- org.netbeans.installer.Installer.main():61
+[2023-08-04 13:28:31.044]: entering -- org.netbeans.installer.Installer.main():61
+[2023-08-04 13:28:31.044]: starting the installer
+[2023-08-04 13:28:31.047]:     ... initializing look and feel
+[2023-08-04 13:28:31.047]:         ... custom look and feel class name was not specified, using system default
+[2023-08-04 13:28:31.156]:         ... class name: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+[2023-08-04 13:28:31.157]:         ... get installed L&Fs
+[2023-08-04 13:28:31.259]:         ... set specified L&F
+[2023-08-04 13:28:31.322]:         ... check headless
+[2023-08-04 13:28:31.322]:         ... creating JFileChooser object to check possible issues with UI
+[2023-08-04 13:28:32.585]:         ... getting default Toolkit to check possible issues with UI
+[2023-08-04 13:28:32.586]:         ... creating JProgressBar object to check possible issues with UI
+[2023-08-04 13:28:32.590]:         ... all UI checks done
+[2023-08-04 13:28:32.591]:         ... L&F is set
+[2023-08-04 13:28:32.591]:     ... initializing L&F finished
+[2023-08-04 13:28:32.726]:     NameResolver - to parse &Help!
+[2023-08-04 13:28:32.728]:     NameResolver - to parse < &Back
+[2023-08-04 13:28:32.729]:     NameResolver - to parse &Next >
+[2023-08-04 13:28:32.729]:     NameResolver - to parse Cancel
+[2023-08-04 13:28:32.731]:     NameResolver - to parse Configuring the Installer...
+[2023-08-04 13:28:32.732]:     NameResolver - to parse Configuring the Installer...
+[2023-08-04 13:28:32.739]:     NameResolver - to parse Configuring the Installer...
+[2023-08-04 13:28:32.739]:     NameResolver - to parse Configuring the Installer...
+[2023-08-04 13:28:32.740]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2023-08-04 13:28:32.764]:     NameResolver - to parse Configuring the Installer...
+[2023-08-04 13:28:32.764]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2023-08-04 13:28:32.765]: ... finished starting the installer
+[2023-08-04 13:28:32.766]: exiting -- org.netbeans.installer.Installer.main():61
+[2023-08-04 13:28:32.766]: NameResolver - to parse Configuring the Installer...
+[2023-08-04 13:28:32.767]: entering -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2023-08-04 13:28:32.768]: initializing product registry
+[2023-08-04 13:28:32.768]:     entering -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2023-08-04 13:28:32.768]:     initializing product registry properties
+[2023-08-04 13:28:32.768]:         initializing local product cache directory
+[2023-08-04 13:28:32.768]:         ... C:\Users\Ashu mishra\.nbi\product-cache
+[2023-08-04 13:28:32.769]:         initializing local product registry file
+[2023-08-04 13:28:32.770]:         copying file: C:\Users\Ashu mishra\.nbi\tmp\default-registry.xml to: C:\Users\Ashu mishra\.nbi\registry.xml
+[2023-08-04 13:28:32.780]:             ... C:\Users\Ashu mishra\.nbi\registry.xml
+[2023-08-04 13:28:32.780]:             initializing local product registry stub uri
+[2023-08-04 13:28:32.781]:             ... resource:org/netbeans/installer/product/default-registry.xml
+[2023-08-04 13:28:32.781]:             initializing bundled product registry uri
+[2023-08-04 13:28:32.781]:             ... resource:data/registry.xml
+[2023-08-04 13:28:32.781]:             initializing product registry schema uri
+[2023-08-04 13:28:32.781]:             ... resource:org/netbeans/installer/product/registry.xsd
+[2023-08-04 13:28:32.781]:             initializing remote product registries uris
+[2023-08-04 13:28:32.781]:             initializing state file schema uri
+[2023-08-04 13:28:32.781]:             ... resource:org/netbeans/installer/product/state-file.xsd
+[2023-08-04 13:28:32.781]:             initializing default state file uri
+[2023-08-04 13:28:32.781]:             ... resource:org/netbeans/installer/product/default-state-file.xml
+[2023-08-04 13:28:32.781]:             initializing target platform
+[2023-08-04 13:28:32.781]:             ... windows-x64
+[2023-08-04 13:28:32.781]:     initializing product registry properties
+[2023-08-04 13:28:32.782]:     exiting -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2023-08-04 13:28:32.785]:     ... loading registry from file:/C:/Users/Ashu%20mishra/.nbi/registry.xml
+[2023-08-04 13:28:32.801]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:32.802]:     validating previous installations
+[2023-08-04 13:28:32.802]:     ... validating installations finished
+[2023-08-04 13:28:32.802]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:32.802]:     ... loading registry from resource:data/registry.xml
+[2023-08-04 13:28:32.840]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:32.840]:     validating previous installations
+[2023-08-04 13:28:32.840]:     ... validating installations finished
+[2023-08-04 13:28:32.840]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:32.841]: ... product registry initialization complete
+[2023-08-04 13:28:32.841]: exiting -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2023-08-04 13:28:32.842]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-04 13:28:33.049]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-04 13:28:33.265]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-04 13:28:33.482]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-04 13:28:33.699]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-04 13:28:33.915]: NameResolver - to parse Extracting configuration logic for {0}
+[2023-08-04 13:28:34.207]: entering -- org.netbeans.installer.wizard.components.actions.netbeans.NbInitializationAction.execute():116
+[2023-08-04 13:28:34.207]: search for all java locations
+[2023-08-04 13:28:34.415]:     checking for possible java locations in windows registry
+[2023-08-04 13:28:34.415]:         ... alternative registry view is also supported
+[2023-08-04 13:28:34.416]:     ... finished
+[2023-08-04 13:28:34.416]:     checking for possible java locations in environment
+[2023-08-04 13:28:34.416]:     ... finished
+[2023-08-04 13:28:34.417]:     NameResolver - to parse $S{java.home}
+[2023-08-04 13:28:34.422]:     NameResolver - to parse $S{java.home}/..
+[2023-08-04 13:28:34.423]:     NameResolver - to parse $N{install}
+[2023-08-04 13:28:34.425]:           --- parsed to C:\Program Files
+[2023-08-04 13:28:34.435]:     NameResolver - to parse $N{install}/Java
+[2023-08-04 13:28:34.435]:           --- parsed to C:\Program Files/Java
+[2023-08-04 13:28:34.436]:     investigating java home candidate: C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:34.440]:         executing command: C:\Program Files\Java\jdk-20\bin\java.exe -classpath C:\Users\Ashu mishra\.nbi\tmp TestJDK, in directory: .
+[2023-08-04 13:28:34.698]:             [stdout]: 20.0.2
+[2023-08-04 13:28:34.699]:             [stdout]: 20.0.2+9-78
+[2023-08-04 13:28:34.699]:             [stdout]: Oracle Corporation
+[2023-08-04 13:28:34.699]:             [stdout]: Windows 11
+[2023-08-04 13:28:34.699]:             [stdout]: amd64
+[2023-08-04 13:28:34.699]:             [return]: 0
+[2023-08-04 13:28:34.700]:         ... command execution finished
+[2023-08-04 13:28:34.701]:         ... java.version    = 20.0.2
+[2023-08-04 13:28:34.701]:         ... java.vm.version = 20.0.2+9-78
+[2023-08-04 13:28:34.701]:         ... java.vendor     = Oracle Corporation
+[2023-08-04 13:28:34.701]:         ... os.name         = Windows 11
+[2023-08-04 13:28:34.701]:         ... os.arch         = amd64
+[2023-08-04 13:28:34.703]:         ... version string : 20.0.2+9-78
+[2023-08-04 13:28:34.703]:         ... put jdk info to the Java map
+[2023-08-04 13:28:34.705]:     ... parsed java: 20.0.2.0.0 by Oracle Corporation; final=true
+[2023-08-04 13:28:34.711]:     investigating java home candidate: C:\Program Files\Java\jdk-20\bin
+[2023-08-04 13:28:34.719]:     investigating java home candidate: C:\Program Files\Java\jdk-20\conf
+[2023-08-04 13:28:34.726]:     investigating java home candidate: C:\Program Files\Java\jdk-20\include
+[2023-08-04 13:28:34.734]:     investigating java home candidate: C:\Program Files\Java\jdk-20\jmods
+[2023-08-04 13:28:34.743]:     investigating java home candidate: C:\Program Files\Java\jdk-20\legal
+[2023-08-04 13:28:34.752]:     investigating java home candidate: C:\Program Files\Java\jdk-20\lib
+[2023-08-04 13:28:34.759]:     investigating java home candidate: C:\Program Files\Java
+[2023-08-04 13:28:34.769]:     investigating java home candidate: C:\Program Files\Java\jdk-17.0.4
+[2023-08-04 13:28:34.774]:         executing command: C:\Program Files\Java\jdk-17.0.4\bin\java.exe -classpath C:\Users\Ashu mishra\.nbi\tmp TestJDK, in directory: .
+[2023-08-04 13:28:35.047]:             [stdout]: 17.0.4
+[2023-08-04 13:28:35.047]:             [stdout]: 17.0.4+11-LTS-179
+[2023-08-04 13:28:35.047]:             [stdout]: Oracle Corporation
+[2023-08-04 13:28:35.047]:             [stdout]: Windows 11
+[2023-08-04 13:28:35.047]:             [stdout]: amd64
+[2023-08-04 13:28:35.047]:             [return]: 0
+[2023-08-04 13:28:35.047]:         ... command execution finished
+[2023-08-04 13:28:35.048]:         ... java.version    = 17.0.4
+[2023-08-04 13:28:35.048]:         ... java.vm.version = 17.0.4+11-LTS-179
+[2023-08-04 13:28:35.048]:         ... java.vendor     = Oracle Corporation
+[2023-08-04 13:28:35.048]:         ... os.name         = Windows 11
+[2023-08-04 13:28:35.048]:         ... os.arch         = amd64
+[2023-08-04 13:28:35.048]:         ... version string : 17.0.4+11-LTS-179
+[2023-08-04 13:28:35.048]:         ... put jdk info to the Java map
+[2023-08-04 13:28:35.049]:     ... parsed java: 17.0.4.0.0 by Oracle Corporation; final=true
+[2023-08-04 13:28:35.055]:     investigating java home candidate: C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:35.055]:     ... parsed java: 20.0.2.0.0 by Oracle Corporation; final=true
+[2023-08-04 13:28:35.060]:     investigating java home candidate: C:\Program Files
+[2023-08-04 13:28:35.066]:     investigating java home candidate: C:\Program Files\Android
+[2023-08-04 13:28:35.074]:     investigating java home candidate: C:\Program Files\Common Files
+[2023-08-04 13:28:35.080]:     investigating java home candidate: C:\Program Files\HP
+[2023-08-04 13:28:35.086]:     investigating java home candidate: C:\Program Files\HPCommRecovery
+[2023-08-04 13:28:35.094]:     investigating java home candidate: C:\Program Files\Internet Explorer
+[2023-08-04 13:28:35.101]:     investigating java home candidate: C:\Program Files\Java
+[2023-08-04 13:28:35.108]:     investigating java home candidate: C:\Program Files\McAfee
+[2023-08-04 13:28:35.115]:     investigating java home candidate: C:\Program Files\McAfee.com
+[2023-08-04 13:28:35.122]:     investigating java home candidate: C:\Program Files\Microsoft
+[2023-08-04 13:28:35.130]:     investigating java home candidate: C:\Program Files\Microsoft Office
+[2023-08-04 13:28:35.137]:     investigating java home candidate: C:\Program Files\Microsoft Office 15
+[2023-08-04 13:28:35.144]:     investigating java home candidate: C:\Program Files\Microsoft OneDrive
+[2023-08-04 13:28:35.152]:     investigating java home candidate: C:\Program Files\Microsoft Update Health Tools
+[2023-08-04 13:28:35.160]:     investigating java home candidate: C:\Program Files\ModifiableWindowsApps
+[2023-08-04 13:28:35.167]:     investigating java home candidate: C:\Program Files\nodejs
+[2023-08-04 13:28:35.174]:     investigating java home candidate: C:\Program Files\Online Services
+[2023-08-04 13:28:35.181]:     investigating java home candidate: C:\Program Files\Portrait Displays
+[2023-08-04 13:28:35.188]:     investigating java home candidate: C:\Program Files\Uninstall Information
+[2023-08-04 13:28:35.195]:     investigating java home candidate: C:\Program Files\Windows Defender
+[2023-08-04 13:28:35.202]:     investigating java home candidate: C:\Program Files\Windows Mail
+[2023-08-04 13:28:35.209]:     investigating java home candidate: C:\Program Files\Windows Media Player
+[2023-08-04 13:28:35.216]:     investigating java home candidate: C:\Program Files\Windows NT
+[2023-08-04 13:28:35.223]:     investigating java home candidate: C:\Program Files\Windows Photo Viewer
+[2023-08-04 13:28:35.231]:     investigating java home candidate: C:\Program Files\Windows Sidebar
+[2023-08-04 13:28:35.238]:     investigating java home candidate: C:\Program Files\WindowsApps
+[2023-08-04 13:28:35.269]:     investigating java home candidate: C:\Program Files\WindowsPowerShell
+[2023-08-04 13:28:35.275]:     investigating java home candidate: C:\Program Files\Java
+[2023-08-04 13:28:35.282]:     investigating java home candidate: C:\Program Files\Java\jdk-17.0.4
+[2023-08-04 13:28:35.282]:     ... parsed java: 17.0.4.0.0 by Oracle Corporation; final=true
+[2023-08-04 13:28:35.288]:     investigating java home candidate: C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:35.288]:     ... parsed java: 20.0.2.0.0 by Oracle Corporation; final=true
+[2023-08-04 13:28:35.499]: ... end of search for all java locations
+[2023-08-04 13:28:35.499]: exiting -- org.netbeans.installer.wizard.components.actions.netbeans.NbInitializationAction.execute():116
+[2023-08-04 13:28:35.500]: ... bundledProductSkip = null
+[2023-08-04 13:28:35.500]: ... bundledProductToInstall = null
+[2023-08-04 13:28:35.526]: NameResolver - to parse resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2023-08-04 13:28:35.539]: NameResolver - to parse &Help!
+[2023-08-04 13:28:35.541]: NameResolver - to parse < &Back
+[2023-08-04 13:28:35.542]: NameResolver - to parse &Next >
+[2023-08-04 13:28:35.542]: NameResolver - to parse Cancel
+[2023-08-04 13:28:35.543]: NameResolver - to parse <html><h2 style="color: #FF8E00; bold">Welcome to the Apache NetBeans IDE 18 Installer</h2>
+[2023-08-04 13:28:35.543]: NameResolver - to parse </html>
+[2023-08-04 13:28:35.543]: NameResolver - to parse text/html
+[2023-08-04 13:28:35.622]: NameResolver - to parse <html>
+[2023-08-04 13:28:35.622]: NameResolver - to parse The installer will install the NetBeans IDE with the following packs and runtimes.<br>Click Customize to select the packs and runtimes to install.<br><br>
+[2023-08-04 13:28:35.622]: NameResolver - to parse text/html
+[2023-08-04 13:28:35.631]: NameResolver - to parse <html>
+[2023-08-04 13:28:35.632]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:35.632]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:35.633]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:35.633]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:35.633]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:35.633]: NameResolver - to parse </html>
+[2023-08-04 13:28:35.633]: NameResolver - to parse text/html
+[2023-08-04 13:28:35.633]: NameResolver - to parse &Customize...
+[2023-08-04 13:28:35.650]: NameResolver - to parse Installation Size: {0}
+[2023-08-04 13:28:35.655]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-04 13:28:35.656]: NameResolver - to parse $N{install}/NetBeans-18
+[2023-08-04 13:28:35.656]:       --- parsed to C:\Program Files/NetBeans-18
+[2023-08-04 13:28:35.656]: NameResolver - to parse 1.8.0.0.0
+[2023-08-04 13:28:35.656]: NameResolver - to parse 500.0.0
+[2023-08-04 13:28:35.656]: NameResolver - to parse .*
+[2023-08-04 13:28:35.656]: NameResolver - to parse false
+[2023-08-04 13:28:35.656]: NameResolver - to parse false
+[2023-08-04 13:28:35.665]: NameResolver - to parse false
+[2023-08-04 13:28:35.665]: ... loading registry from resource:data/registry.xml
+[2023-08-04 13:28:35.692]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:35.692]: validating previous installations
+[2023-08-04 13:28:35.696]: ... validating installations finished
+[2023-08-04 13:28:35.696]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2023-08-04 13:28:35.696]: NameResolver - to parse false
+[2023-08-04 13:28:35.696]: ... use Java from the first item in the overall list: C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:35.697]: ... use Java that is already selected for the product: C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:35.698]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-04 13:28:35.716]: NameResolver - to parse <dummy description>
+[2023-08-04 13:28:37.715]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-04 13:28:38.443]: NameResolver - to parse Customize Installation
+[2023-08-04 13:28:38.443]: NameResolver - to parse &Select packs and runtimes to install from the list below.
+[2023-08-04 13:28:38.449]: NameResolver - to parse text/plain
+[2023-08-04 13:28:38.449]: NameResolver - to parse Select a component to see its description.
+[2023-08-04 13:28:38.450]: NameResolver - to parse Installation size: {0}
+[2023-08-04 13:28:38.452]: NameResolver - to parse &OK
+[2023-08-04 13:28:38.452]: NameResolver - to parse Cancel
+[2023-08-04 13:28:39.731]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-04 13:28:41.493]: NameResolver - to parse <html><h2 style="color: #FF8E00; bold">Welcome to the Apache NetBeans IDE 18 Installer</h2>
+[2023-08-04 13:28:41.493]: NameResolver - to parse </html>
+[2023-08-04 13:28:41.494]: NameResolver - to parse text/html
+[2023-08-04 13:28:41.499]: NameResolver - to parse <html>
+[2023-08-04 13:28:41.500]: NameResolver - to parse The installer will install the NetBeans IDE with the following packs and runtimes.<br>Click Customize to select the packs and runtimes to install.<br><br>
+[2023-08-04 13:28:41.500]: NameResolver - to parse text/html
+[2023-08-04 13:28:41.504]: NameResolver - to parse <html>
+[2023-08-04 13:28:41.505]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:41.505]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:41.506]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:41.506]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:41.507]: NameResolver - to parse {0}<br>
+[2023-08-04 13:28:41.507]: NameResolver - to parse </html>
+[2023-08-04 13:28:41.507]: NameResolver - to parse text/html
+[2023-08-04 13:28:41.510]: NameResolver - to parse &Customize...
+[2023-08-04 13:28:41.516]: NameResolver - to parse Installation Size: {0}
+[2023-08-04 13:28:41.517]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-04 13:28:41.748]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-04 13:28:42.982]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2023-08-04 13:28:43.000]: NameResolver - to parse &Help!
+[2023-08-04 13:28:43.001]: NameResolver - to parse < &Back
+[2023-08-04 13:28:43.001]: NameResolver - to parse &Next >
+[2023-08-04 13:28:43.001]: NameResolver - to parse Cancel
+[2023-08-04 13:28:43.001]: NameResolver - to parse I &accept the terms in the license agreement
+[2023-08-04 13:28:43.001]: NameResolver - to parse org/netbeans/installer/product/components/netbeans-license.txt
+[2023-08-04 13:28:43.001]: NameResolver - to parse $R{org/netbeans/installer/product/components/netbeans-license.txt;UTF-8}
+[2023-08-04 13:28:43.010]: NameResolver - to parse {0}
+[2023-08-04 13:28:43.070]: NameResolver - to parse License Agreement
+[2023-08-04 13:28:43.071]: NameResolver - to parse License Agreement
+[2023-08-04 13:28:43.072]: NameResolver - to parse License Agreement
+[2023-08-04 13:28:43.072]: NameResolver - to parse License Agreement
+[2023-08-04 13:28:43.072]: NameResolver - to parse Please read the following license agreement carefully.
+[2023-08-04 13:28:43.136]: NameResolver - to parse License Agreement
+[2023-08-04 13:28:43.136]: NameResolver - to parse Please read the following license agreement carefully.
+[2023-08-04 13:28:47.894]: NameResolver - to parse C:\Program Files\NetBeans-18
+[2023-08-04 13:28:47.894]: NameResolver - to parse 1.8.0.0.0
+[2023-08-04 13:28:47.894]: NameResolver - to parse 500.0.0
+[2023-08-04 13:28:47.894]: NameResolver - to parse .*
+[2023-08-04 13:28:47.896]: NameResolver - to parse false
+[2023-08-04 13:28:47.899]: NameResolver - to parse false
+[2023-08-04 13:28:47.900]: NameResolver - to parse false
+[2023-08-04 13:28:47.901]: ... use Java that is already selected for the product: C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:48.358]: NameResolver - to parse &Help!
+[2023-08-04 13:28:48.359]: NameResolver - to parse < &Back
+[2023-08-04 13:28:48.359]: NameResolver - to parse &Next >
+[2023-08-04 13:28:48.359]: NameResolver - to parse Cancel
+[2023-08-04 13:28:48.359]: NameResolver - to parse &JDK™ for the Apache NetBeans IDE:
+[2023-08-04 13:28:48.360]: NameResolver - to parse The installation folder cannot be empty.
+[2023-08-04 13:28:48.362]: ... use Java that is already selected for the product: C:\Program Files\Java\jdk-20
+[2023-08-04 13:28:48.363]: NameResolver - to parse The installation folder cannot be empty.
+[2023-08-04 13:28:48.363]: NameResolver - to parse Br&owse...
+[2023-08-04 13:28:48.363]: NameResolver - to parse &Install the Apache NetBeans IDE to:
+[2023-08-04 13:28:48.363]: NameResolver - to parse B&rowse...
+[2023-08-04 13:28:48.367]: NameResolver - to parse false
+[2023-08-04 13:28:48.370]: NameResolver - to parse false
+[2023-08-04 13:28:48.371]: NameResolver - to parse Apache NetBeans IDE 18 Installation
+[2023-08-04 13:28:48.371]: NameResolver - to parse Apache NetBeans IDE 18 Installation
+[2023-08-04 13:28:48.372]: NameResolver - to parse Apache NetBeans IDE 18 Installation
+[2023-08-04 13:28:48.372]: NameResolver - to parse Apache NetBeans IDE 18 Installation
+[2023-08-04 13:28:48.372]: NameResolver - to parse Choose the installation folder and JDK™.
+[2023-08-04 13:28:48.376]: NameResolver - to parse false
+[2023-08-04 13:28:48.389]: NameResolver - to parse Apache NetBeans IDE 18 Installation
+[2023-08-04 13:28:48.389]: NameResolver - to parse Choose the installation folder and JDK™.
+[2023-08-04 13:28:50.385]: NameResolver - to parse false
+[2023-08-04 13:28:52.397]: NameResolver - to parse false
+[2023-08-04 13:28:54.418]: NameResolver - to parse false
+[2023-08-04 13:28:56.434]: NameResolver - to parse false
+[2023-08-04 13:28:58.450]: NameResolver - to parse false
+[2023-08-04 13:29:00.466]: NameResolver - to parse false
+[2023-08-04 13:29:02.483]: NameResolver - to parse false
+[2023-08-04 13:29:04.499]: NameResolver - to parse false
+[2023-08-04 13:29:06.517]: NameResolver - to parse false
+[2023-08-04 13:29:08.529]: NameResolver - to parse false
+[2023-08-04 13:29:10.550]: NameResolver - to parse false
+[2023-08-04 13:29:12.562]: NameResolver - to parse false
+[2023-08-04 13:29:14.582]: NameResolver - to parse false
+[2023-08-04 13:29:16.588]: NameResolver - to parse false
+[2023-08-04 13:29:18.598]: NameResolver - to parse false
+[2023-08-04 13:29:20.616]: NameResolver - to parse false
+[2023-08-04 13:29:22.629]: NameResolver - to parse false
+[2023-08-04 13:29:24.637]: NameResolver - to parse false
+[2023-08-04 13:29:26.650]: NameResolver - to parse false
+[2023-08-04 13:29:28.658]: NameResolver - to parse false
+[2023-08-04 13:29:30.678]: NameResolver - to parse false
+[2023-08-04 13:29:32.688]: NameResolver - to parse false
+[2023-08-04 13:29:34.696]: NameResolver - to parse false
+[2023-08-04 13:29:36.709]: NameResolver - to parse false
+[2023-08-04 13:29:38.717]: NameResolver - to parse false
+[2023-08-04 13:29:40.728]: NameResolver - to parse false
+[2023-08-04 13:29:42.735]: NameResolver - to parse false
+[2023-08-04 13:29:44.749]: NameResolver - to parse false
+[2023-08-04 13:29:46.759]: NameResolver - to parse false
+[2023-08-04 13:29:48.767]: NameResolver - to parse false
+[2023-08-04 13:29:50.779]: NameResolver - to parse false
+[2023-08-04 13:29:52.787]: NameResolver - to parse false
+[2023-08-04 13:29:54.796]: NameResolver - to parse false
+[2023-08-04 13:29:56.807]: NameResolver - to parse false
+[2023-08-04 13:29:58.817]: NameResolver - to parse false
+[2023-08-04 13:30:00.829]: NameResolver - to parse false
+[2023-08-04 13:30:02.838]: NameResolver - to parse false
+[2023-08-04 13:30:04.847]: NameResolver - to parse false
+[2023-08-04 13:30:06.856]: NameResolver - to parse false
+[2023-08-04 13:30:08.868]: NameResolver - to parse false
+[2023-08-04 13:30:10.877]: NameResolver - to parse false
+[2023-08-04 13:30:12.887]: NameResolver - to parse false
+[2023-08-04 13:30:14.898]: NameResolver - to parse false
+[2023-08-04 13:30:16.907]: NameResolver - to parse false
+[2023-08-04 13:30:18.918]: NameResolver - to parse false
+[2023-08-04 13:30:20.928]: NameResolver - to parse false
+[2023-08-04 13:30:22.938]: NameResolver - to parse false
+[2023-08-04 13:30:24.954]: NameResolver - to parse false
+[2023-08-04 13:30:26.965]: NameResolver - to parse false
+[2023-08-04 13:30:28.977]: NameResolver - to parse false
+[2023-08-04 13:30:30.986]: NameResolver - to parse false
+[2023-08-04 13:30:33.004]: NameResolver - to parse false
+[2023-08-04 13:30:35.019]: NameResolver - to parse false
+[2023-08-04 13:30:37.027]: NameResolver - to parse false
+[2023-08-04 13:30:39.037]: NameResolver - to parse false
+[2023-08-04 13:30:41.047]: NameResolver - to parse false
+[2023-08-04 13:30:43.058]: NameResolver - to parse false
+[2023-08-04 13:30:45.065]: NameResolver - to parse false
+[2023-08-04 13:30:47.069]: NameResolver - to parse false
+[2023-08-04 13:30:49.088]: NameResolver - to parse false
+[2023-08-04 13:30:51.095]: NameResolver - to parse false
+[2023-08-04 13:30:53.104]: NameResolver - to parse false
+[2023-08-04 13:30:55.117]: NameResolver - to parse false
+[2023-08-04 13:30:57.140]: NameResolver - to parse false
+[2023-08-04 13:30:59.154]: NameResolver - to parse false
+[2023-08-04 13:31:01.172]: NameResolver - to parse false
+[2023-08-04 13:31:03.186]: NameResolver - to parse false
+[2023-08-04 13:31:05.199]: NameResolver - to parse false
+[2023-08-04 13:31:07.217]: NameResolver - to parse false
+[2023-08-04 13:31:09.228]: NameResolver - to parse false
+[2023-08-04 13:31:11.240]: NameResolver - to parse false
+[2023-08-04 13:31:13.243]: NameResolver - to parse false
+[2023-08-04 13:31:15.252]: NameResolver - to parse false
+[2023-08-04 13:31:17.263]: NameResolver - to parse false
+[2023-08-04 13:31:19.276]: NameResolver - to parse false
+[2023-08-04 13:31:21.289]: NameResolver - to parse false
+[2023-08-04 13:31:23.305]: NameResolver - to parse false
+[2023-08-04 13:31:25.317]: NameResolver - to parse false
+[2023-08-04 13:31:27.325]: NameResolver - to parse false
+[2023-08-04 13:31:29.335]: NameResolver - to parse false
+[2023-08-04 13:31:31.352]: NameResolver - to parse false
+[2023-08-04 13:31:33.371]: NameResolver - to parse false
+[2023-08-04 13:31:35.382]: NameResolver - to parse false
+[2023-08-04 13:31:37.391]: NameResolver - to parse false
+[2023-08-04 13:31:39.402]: NameResolver - to parse false
+[2023-08-04 13:31:41.410]: NameResolver - to parse false
+[2023-08-04 13:31:43.418]: NameResolver - to parse false
+[2023-08-04 13:31:45.436]: NameResolver - to parse false
+[2023-08-04 13:31:47.440]: NameResolver - to parse false
+[2023-08-04 13:31:49.452]: NameResolver - to parse false
+[2023-08-04 13:31:51.463]: NameResolver - to parse false
+[2023-08-04 13:31:53.478]: NameResolver - to parse false
+[2023-08-04 13:31:55.489]: NameResolver - to parse false
+[2023-08-04 13:31:57.496]: NameResolver - to parse false
+[2023-08-04 13:31:59.504]: NameResolver - to parse false
+[2023-08-04 13:32:01.519]: NameResolver - to parse false
+[2023-08-04 13:32:03.539]: NameResolver - to parse false
+[2023-08-04 13:32:05.551]: NameResolver - to parse false
+[2023-08-04 13:32:07.562]: NameResolver - to parse false
+[2023-08-04 13:32:09.567]: NameResolver - to parse false
+[2023-08-04 13:32:11.588]: NameResolver - to parse false
+[2023-08-04 13:32:13.597]: NameResolver - to parse false
+[2023-08-04 13:32:15.611]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:17.621]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:19.634]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:21.645]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:23.650]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:25.659]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:27.671]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:29.678]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:31.685]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:33.703]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:35.709]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:37.716]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:39.730]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:41.741]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:43.752]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:45.764]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:47.775]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:49.786]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:51.791]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:53.805]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:55.808]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:57.811]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:32:59.818]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:01.835]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:03.848]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:05.860]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:07.867]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:09.878]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:11.896]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:13.913]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:15.920]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:17.927]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:19.943]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:21.964]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:23.974]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:25.982]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:27.989]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:29.993]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:32.002]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:34.014]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:36.024]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:38.034]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:40.044]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:42.051]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:44.064]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:46.073]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:48.084]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:50.093]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:52.100]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:54.114]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:56.124]: NameResolver - to parse The specified installation folder is not empty.
+[2023-08-04 13:33:56.296]: NameResolver - to parse Cancel
+[2023-08-04 13:33:56.297]: NameResolver - to parse Are you sure you want to cancel?
+[2023-08-04 13:33:56.297]: ... showing Yes/No dialog
+[2023-08-04 13:33:56.297]:     title: Cancel
+[2023-08-04 13:33:56.297]:     message: Are you sure you want to cancel?
+[2023-08-04 13:34:00.140]: ... dialog closed, choice : yes
