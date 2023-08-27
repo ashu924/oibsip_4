@@ -1,0 +1,26 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust if needed */
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay-image {
+    width: 20px; /* Adjust the width of the overlay image */
+    position: absolute;
+    top: 50px; /* Adjust the top position as needed */
+    left: 50px; /* Adjust the left position as needed */
+    z-index: 1;
+  }
+  
